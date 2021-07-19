@@ -1,6 +1,8 @@
 # kinesis
 Kinesis Advantage2 keyboard setup
+
 I got this keyboard on July 17th of 2021 and here I will keep some configuration files and interesting ideas about key remapping and so forth.
+
 An interesting mapping I found on [reddit](https://www.reddit.com/r/kinesisadvantage/comments/o4qeoy/best_qwerty_key_changes/h2ni9pk/?utm_source=reddit&utm_medium=web2x&context=3), huge thank you to redditor [wonderbreadofsin](https://www.reddit.com/user/wonderbreadofsin/):
 ```
 [caps]>[kpshft]
@@ -36,22 +38,23 @@ An interesting mapping I found on [reddit](https://www.reddit.com/r/kinesisadvan
 {kpenter1}>{speed9}{-lshift}{`}{+lshift}
 [=]>[`]
 ```
+
 Explanation:
-```
-I remapped Caps Lock to be my layer switch key, then changed all of the keys on my right hand to do something different on the second layer (while I'm holding down Caps Lock).
 
-I,J,K,L are now my arrow keys on the second layer. The existing arrow keys I've changed to do other things on the default layer, like switch desktops in Windows.
+> I remapped Caps Lock to be my layer switch key, then changed all of the keys on my right hand to do something different on the second layer (while I'm holding down Caps Lock).
 
-I moved the number pad to my left hand, since when I use that I toggle layers instead of holding down Caps Lock.
+> I,J,K,L are now my arrow keys on the second layer. The existing arrow keys I've changed to do other things on the default layer, like switch desktops in Windows.
 
-All of the other keys on my right hand do something useful for programming on the second layer. i.e. U and O are round braces, M and . are curly braces. ' is backtick, , is equals, Y is $, H is !, etc.
+> I moved the number pad to my left hand, since when I use that I toggle layers instead of holding down Caps Lock.
 
-The keyboard has two "layers", the normal layer and the keypad layer. If you haven't remapped anything, the keypad layer just has the number pad, and you switch to the keypad layer by pressing the keypd button. But you can remap everything and make that layer way more useful.
+> All of the other keys on my right hand do something useful for programming on the second layer. i.e. U and O are round braces, M and . are curly braces. ' is backtick, , is equals, Y is $, H is !, etc.
 
-The keypd button toggles layers, but you can also create a layer shift key, which only keeps the keyboard on the keypad layer while you're holding it down. I made that my Caps Lock button. I then created custom mappings for a bunch of keys. So now I can hold down the caps lock button with my left pinky, and the home row keys in my right hand turn into the arrow keys for navigation. Super useful.
+> The keyboard has two "layers", the normal layer and the keypad layer. If you haven't remapped anything, the keypad layer just has the number pad, and you switch to the keypad layer by pressing the keypd button. But you can remap everything and make that layer way more useful.
 
-You can also assign macros, which are sequences and combinations of keys. To the left and right arrow keys, I assigned the key combinations for switching between desktops, for instance.
-```
+> The keypd button toggles layers, but you can also create a layer shift key, which only keeps the keyboard on the keypad layer while you're holding it down. I made that my Caps Lock button. I then created custom mappings for a bunch of keys. So now I can hold down the caps lock button with my left pinky, and the home row keys in my right hand turn into the arrow keys for navigation. Super useful.
+
+> You can also assign macros, which are sequences and combinations of keys. To the left and right arrow keys, I assigned the key combinations for switching between desktops, for instance.
+
 
 Some troubleshooting:
 ```
@@ -59,7 +62,8 @@ I added the following to my qwerty.txt:
 
 [caps]>[kpshft]
 
-But it makes for that key to now do both CapsLock and keypad layer. Do I need to delete the CapsLock assignment somewhere?
+But it makes for that key to now do both CapsLock and keypad layer. 
+Do I need to delete the CapsLock assignment somewhere?
 
 I had forgotten to add [kp-caps]>[kpshft]
 ```
