@@ -189,3 +189,9 @@ Unmount file with diskutil unmount /Volumes/ADVANTAGE2/
 Disconnect from v-drive by pressing progm + 1 again.
 ```
 
+Touch-typing lessons specifically for this keyboard: https://rshestakov.wordpress.com/2014/11/30/how-to-learn-to-type-on-kinesis-advantage/
+
+
+Kinesis community on github: https://github.com/bbbbbrie/awesome-kinesis
+
+Online remapping helper: https://kinesis.vercel.app/
